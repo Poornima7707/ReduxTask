@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  padding: 10px;
+}
+
+.base {
+  position: relative;
+  width: 200px;
+  height: 400px;
+  margin: auto;
+  border: 16px;
+  border: 20px black solid;
+  border-top-width: 33px;
+  border-bottom-width: 30px;
+  border-radius: 30px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+.text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 470px;
+  font-family: inherit;
+  font-size: 17px;
+}
